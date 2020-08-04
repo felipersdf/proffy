@@ -5,7 +5,7 @@
 </h1>
 
 <p align="center"> 
-<!-- Uma aplicação web e mobile  descrição -->
+Uma aplicação web e mobile que tem como principal objetivo  conectar alunos e professores.
 </p>
 
 <p align="center">
@@ -46,8 +46,8 @@ Estas foram as tecnologias utilizadas nesse projeto:
 - ⚛️ **TypeScript**
 - ⚛️ **React JS**
 - ⚛️ **React Native**
+- 📄 **SQLite**
 - ♻️ **Expo**
-<!-- - 📄 **SQLite** -->
 
 ## 🎨 Layout da aplicação
 
@@ -84,6 +84,7 @@ Estas foram as tecnologias utilizadas nesse projeto:
 
 1. Vá para a pasta do backend: `cd server` <br>
 2. Use `yarn dev` para iniciar o servidor
+3. Use `yarn knex:migrate` para criar o banco de dados
 
 ### Iniciando o app no frontend
 
